@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"io/ioutil"
 	"net/http"
 	"strconv"
@@ -53,7 +52,6 @@ func Fetch(method string, url string, structure interface{}, body map[string]int
 		return errors.New("UnexpectedError: Failed reading request data")
 	}
 
-	fmt.Println(string(data), res.StatusCode)
 	marshallErr := json.Unmarshal(data, structure)
 
 	if marshallErr != nil {
