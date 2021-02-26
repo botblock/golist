@@ -82,3 +82,6 @@ list, err := client.GetList("list id"); // Return one paticualr list by id
 ids, err := client.GetLegacyIDS(); // Returns the legacy ids of botlists registered on botblock
 ```
 
+## Support and Issues
+
+Incase, if you have any kind of doubt in using this package, open an issue! This project is license under MIT License!
