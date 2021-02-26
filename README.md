@@ -84,4 +84,4 @@ ids, err := client.GetLegacyIDS(); // Returns the legacy ids of botlists registe
 
 ## Support and Issues
 
-Incase, if you have any kind of doubt in using this package, open an issue! This project is license under MIT License!
+Incase, if you have any kind of doubt in using this package, open an issue in the github repo! This project is license under MIT License!
