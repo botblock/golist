@@ -64,7 +64,7 @@ res, err := client.PostStats("bot id", golist.Stats{
     ServerCount: 20,
     ShardID: 123,
     ShardCount: 1,
-    Shards: [1, 2, 3, 4],
+    Shards: []string{1, 2, 3, 4},
 }) // Post stats and returns PostResponse struct!
 ```
 
